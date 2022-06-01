@@ -25,13 +25,13 @@ export default function App() {
           <span className="step"></span>
         </li>
         <li>
-          <span className="name">Evento de Premiação</span>
-          <span className="status">12/12/22</span>
+          <span className="nam">Evento de Premiação</span>
+          <span className="stats">12/12/22</span>
           <span className="step"></span>
         </li>
         <li>
-          <span className="name">Divulgação dos resultados</span>
-          <span className="status">13/12/22</span>
+          <span className="nam">Divulgação dos resultados</span>
+          <span className="stats">13/12/22</span>
           <span className="step"></span>
         </li>
       </ol>

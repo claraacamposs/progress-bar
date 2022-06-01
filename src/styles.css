@@ -31,6 +31,7 @@ ol.progress[data-steps="9"] li {
   margin: 20px 0 90px 0;
   padding: 0;
 }
+
 .progress li {
   float: left;
   text-align: center;
@@ -41,23 +42,50 @@ ol.progress[data-steps="9"] li {
   display: flex;
   text-align: center;
   margin-bottom: 20px;
+  font-size: 14px;
   color: black;
   opacity: 0.3;
   position: absolute;
-  left: 41%;
-  right: 90%;
+  left: 42%;
+  right: 89%;
+  top: 140%;
+}
+
+.progress .nam {
+  display: flex;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: black;
+  opacity: 0.3;
+  position: absolute;
+  left: 31%;
+  right: 25%;
   top: 140%;
 }
 
 .progress .status {
   display: flex;
   text-align: center;
-  margin-bottom: 20px;
+  font-size: 14px;
+  margin-bottom: 15px;
   color: black;
   opacity: 0.3;
   position: absolute;
-  left: 41%;
-  right: 90%;
+  left: 38%;
+  right: 5%;
+  top: 300%;
+}
+.progress .stats {
+  display: flex;
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: black;
+  opacity: 0.3;
+  position: absolute;
+  left: 45%;
+  right: 5%;
   top: 300%;
 }
 
@@ -73,10 +101,6 @@ ol.progress[data-steps="9"] li {
   z-index: 0;
 }
 
-.progress .active .name,
-.progress .active .step span {
-  opacity: 1;
-}
 .progress .step:before {
   content: "";
   display: block;
